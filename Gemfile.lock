@@ -11,6 +11,3 @@ PLATFORMS
 DEPENDENCIES
   rack
   rack-test
-
-BUNDLED WITH
-   1.10.6
