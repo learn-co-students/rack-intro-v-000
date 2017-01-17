@@ -6,4 +6,8 @@ class Application
     resp.finish
   end
 
+  def test_method
+    puts "this method will never be called, but learn keeps saying my files are the same as the lesson's"
+  end
+
 end
