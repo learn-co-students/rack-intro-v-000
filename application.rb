@@ -10,4 +10,11 @@ class Application
     puts "this method will never be called, but learn keeps saying my files are the same as the lesson's"
   end
 
+  def heres_another_test_method
+    i = 0
+    while i < 10 do
+      i += 1
+    end
+  end
+
 end
