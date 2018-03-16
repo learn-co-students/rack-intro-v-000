@@ -6,5 +6,10 @@ class Application
     resp.finish
   end
 
-end
+  def call(en)
+    resp = Rack::Response.new
+    resp.write "Hello, my name is"
+    resp.finish
+  end
 
+end
