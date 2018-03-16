@@ -2,8 +2,8 @@ require_relative '../application.rb'
 require 'rack'
 require 'rack/test'
 
-def app() 
-  Application.new
+def app()
+  App.new
 end
 
 RSpec.configure do |config|
