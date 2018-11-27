@@ -2,7 +2,7 @@ class Application
 
   def call(env)
     resp = Rack::Response.new
-    resp.write "Super secret code..."
+    resp.write "Hello, my name is Meg."
     resp.finish
   end
 
